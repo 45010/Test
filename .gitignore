@@ -9,3 +9,5 @@ obj/
 # Outros arquivos temporários
 *.user
 *.suo
+*.db
+.vs/
