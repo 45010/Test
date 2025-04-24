@@ -1,0 +1,13 @@
+# Pastas geradas pelo Visual Studio
+.vs/
+.vscode/
+
+# Arquivos de build
+bin/
+obj/
+
+# Outros arquivos temporários
+*.user
+*.suo
+*.db
+.vs/
