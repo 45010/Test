@@ -14,12 +14,12 @@ namespace DEev_backend_1.Migrations
                 name: "Veiculos",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Placa = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    AnoFabricacao = table.Column<int>(type: "int", nullable: false),
-                    AnoModelo = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Nome = table.Column<string>(type: "TEXT", nullable: false),
+                    Placa = table.Column<string>(type: "TEXT", nullable: false),
+                    AnoFabricacao = table.Column<int>(type: "INTEGER", nullable: false),
+                    AnoModelo = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
