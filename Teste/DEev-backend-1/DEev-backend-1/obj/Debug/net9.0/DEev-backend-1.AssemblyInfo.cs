@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DEev-backend-1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cfc48dac5383841b9bcdfe1341c685834fef1fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f2fa3fd01cc7a7e9d47a549e98461e1c0bf8db3")]
 [assembly: System.Reflection.AssemblyProductAttribute("DEev-backend-1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DEev-backend-1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
