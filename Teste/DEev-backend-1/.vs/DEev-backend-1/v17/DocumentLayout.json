@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|d:\\programas\\git\\teste\\deev-backend-1\\deev-backend-1\\views\\veiculos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|solutionrelative:deev-backend-1\\views\\veiculos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|d:\\programas\\git\\teste\\deev-backend-1\\deev-backend-1\\views\\veiculos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|solutionrelative:deev-backend-1\\views\\veiculos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|d:\\programas\\git\\teste\\deev-backend-1\\deev-backend-1\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +13,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|d:\\programas\\git\\teste\\deev-backend-1\\deev-backend-1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|solutionrelative:deev-backend-1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|d:\\programas\\git\\teste\\deev-backend-1\\deev-backend-1\\views\\veiculos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|solutionrelative:deev-backend-1\\views\\veiculos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|d:\\programas\\git\\teste\\deev-backend-1\\deev-backend-1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|solutionrelative:deev-backend-1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|d:\\programas\\git\\teste\\deev-backend-1\\deev-backend-1\\views\\veiculos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|solutionrelative:deev-backend-1\\views\\veiculos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|d:\\programas\\git\\teste\\deev-backend-1\\deev-backend-1\\views\\veiculos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -51,6 +63,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\DEev-backend-1\\Views\\Veiculos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DEev-backend-1\\Views\\Veiculos\\Delete.cshtml",
+              "ToolTip": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\DEev-backend-1\\Views\\Veiculos\\Delete.cshtml",
+              "RelativeToolTip": "DEev-backend-1\\Views\\Veiculos\\Delete.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T22:35:23.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\DEev-backend-1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DEev-backend-1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\DEev-backend-1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DEev-backend-1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T22:21:21.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\DEev-backend-1\\Views\\Veiculos\\Details.cshtml",
+              "RelativeDocumentMoniker": "DEev-backend-1\\Views\\Veiculos\\Details.cshtml",
+              "ToolTip": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\DEev-backend-1\\Views\\Veiculos\\Details.cshtml",
+              "RelativeToolTip": "DEev-backend-1\\Views\\Veiculos\\Details.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T22:19:12.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\DEev-backend-1\\Views\\Veiculos\\Edit.cshtml",
               "RelativeDocumentMoniker": "DEev-backend-1\\Views\\Veiculos\\Edit.cshtml",
@@ -63,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Veiculo.cs",
               "DocumentMoniker": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\DEev-backend-1\\Models\\Veiculo.cs",
               "RelativeDocumentMoniker": "DEev-backend-1\\Models\\Veiculo.cs",
@@ -71,12 +122,11 @@
               "RelativeToolTip": "DEev-backend-1\\Models\\Veiculo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T19:44:38.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T19:44:38.951Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\DEev-backend-1\\Views\\Veiculos\\Create.cshtml",
               "RelativeDocumentMoniker": "DEev-backend-1\\Views\\Veiculos\\Create.cshtml",
@@ -84,12 +134,11 @@
               "RelativeToolTip": "DEev-backend-1\\Views\\Veiculos\\Create.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T23:46:50.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T23:46:50.471Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\DEev-backend-1\\Views\\Veiculos\\Index.cshtml",
               "RelativeDocumentMoniker": "DEev-backend-1\\Views\\Veiculos\\Index.cshtml",
@@ -97,8 +146,7 @@
               "RelativeToolTip": "DEev-backend-1\\Views\\Veiculos\\Index.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T19:40:15.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T19:40:15.475Z"
             },
             {
               "$type": "Document",
@@ -108,7 +156,7 @@
               "RelativeDocumentMoniker": "DEev-backend-1\\Controllers\\VeiculosController.cs",
               "ToolTip": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\DEev-backend-1\\Controllers\\VeiculosController.cs",
               "RelativeToolTip": "DEev-backend-1\\Controllers\\VeiculosController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAswCIAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAADwv0gAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T19:28:11.6Z",
               "EditorCaption": ""
