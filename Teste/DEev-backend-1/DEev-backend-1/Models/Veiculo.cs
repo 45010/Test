@@ -21,5 +21,7 @@ namespace DEev_backend_1.Models
         [Display(Name = "Ano do Modelo")]   
         public int AnoModelo { get; set; }
 
+        public ICollection<Consumo> Consumos { get; set; }
+
     }
 }
