@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|solutionrelative:deev-backend-1\\views\\veiculos\\relatorio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|d:\\programas\\git\\teste\\deev-backend-1\\deev-backend-1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|solutionrelative:deev-backend-1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|d:\\programas\\git\\teste\\deev-backend-1\\deev-backend-1\\views\\veiculos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|solutionrelative:deev-backend-1\\views\\veiculos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|d:\\programas\\git\\teste\\deev-backend-1\\deev-backend-1\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A7E67A5-7B9A-4BED-97FA-E63F745813FC}|DEev-backend-1\\DEev-backend-1.csproj|solutionrelative:deev-backend-1\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\DEev-backend-1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DEev-backend-1\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\DEev-backend-1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DEev-backend-1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T01:11:39.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\DEev-backend-1\\Views\\Veiculos\\Index.cshtml",
+              "RelativeDocumentMoniker": "DEev-backend-1\\Views\\Veiculos\\Index.cshtml",
+              "ToolTip": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\DEev-backend-1\\Views\\Veiculos\\Index.cshtml",
+              "RelativeToolTip": "DEev-backend-1\\Views\\Veiculos\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T01:08:03.34Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +62,14 @@
               "RelativeDocumentMoniker": "DEev-backend-1\\Views\\Veiculos\\Relatorio.cshtml",
               "ToolTip": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\DEev-backend-1\\Views\\Veiculos\\Relatorio.cshtml",
               "RelativeToolTip": "DEev-backend-1\\Views\\Veiculos\\Relatorio.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-25T01:07:15.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "VeiculosController.cs",
               "DocumentMoniker": "D:\\Programas\\Git\\Teste\\DEev-backend-1\\DEev-backend-1\\Controllers\\VeiculosController.cs",
               "RelativeDocumentMoniker": "DEev-backend-1\\Controllers\\VeiculosController.cs",
