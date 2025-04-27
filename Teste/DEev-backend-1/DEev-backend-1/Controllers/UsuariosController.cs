@@ -6,9 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DEev_backend_1.Models;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DEev_backend_1.Controllers
 {
+    
     public class UsuariosController : Controller
     {
         private readonly AppDbContext _context;
@@ -22,6 +26,60 @@ namespace DEev_backend_1.Controllers
         public async Task<IActionResult> Index()
         {
             return View(await _context.Usuarios.ToListAsync());
+        }
+        [Authorize(Roles = "Administrador")]
+        public IActionResult AccessDenied()
+        {
+            
+            return View();
+        }
+      
+        [AllowAnonymous]
+        public IActionResult Login()
+        { return View(); }
+        [HttpPost]
+        [AllowAnonymous]
+        public async Task<IActionResult> Login(Usuario usuario)
+        { var dados = await _context.Usuarios
+                .FindAsync(usuario.Id);
+            if (dados != null)
+            {
+                ViewBag.Message = "Login e/ou senha inválidos!";
+                return View();
+            }
+            bool senhaOk = BCrypt.Net.BCrypt.Verify(usuario.Senha, dados.Senha);
+            if (senhaOk)
+            {
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, dados.Nome),
+                    new Claim(ClaimTypes.NameIdentifier, dados.Id.ToString()),
+                    new Claim(ClaimTypes.Role, dados.Perfil.ToString())
+                };
+                var usuarioIdentity = new ClaimsIdentity(claims, "Login");
+                ClaimsPrincipal principal = new ClaimsPrincipal(usuarioIdentity);
+
+                var props = new AuthenticationProperties
+                {
+                    AllowRefresh = true,
+                    ExpiresUtc = DateTimeOffset.UtcNow.AddHours(8),
+                    IsPersistent = true,
+                };
+                await HttpContext.SignInAsync(principal, props);
+                return Redirect("/");
+            }
+            else
+            {
+                ViewBag.Message = "Login e/ou senha inválidos!";
+            }
+
+
+            return View(); }
+        [AllowAnonymous]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("login", "Usuarios");
         }
 
         // GET: Usuarios/Details/5
